@@ -1,0 +1,28 @@
+.header {
+  font-family: "Lora", serif;
+  color: #18242e;
+  background-image: url(https://i.picsum.photos/id/1064/1000/1000.jpg?hmac=n3QAsGszR_Sz27N8KRaMo6l9N4_cKEokpF7C9uUDWd0);
+  background-size: cover;
+  height: calc(100vh - 50px);
+  background-repeat: no-repeat;
+  display: grid;
+}
+
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerTitleSm {
+  position: absolute;
+  top: 3em;
+  font-size: 1.5rem;
+}
+
+.headerTitleLg {
+  position: absolute;
+  top: 1.2em;
+  font-size: 5rem;
+}

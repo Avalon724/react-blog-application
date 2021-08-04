@@ -1,0 +1,12 @@
+.single {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.single > *:nth-child(1) {
+  flex: 1 1 70%;
+}
+
+.single > *:nth-child(2) {
+  flex: 1 1 30%;
+}
